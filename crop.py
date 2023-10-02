@@ -6,6 +6,7 @@ class CropTool:
         image = Image.open(img_name) 
         cropped_image = image.crop((left, top, right, bottom))
         image.close()
+        
         return cropped_image
 
 def test():
